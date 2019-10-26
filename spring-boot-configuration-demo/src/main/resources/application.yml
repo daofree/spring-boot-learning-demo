@@ -1,0 +1,27 @@
+# 激活指定环境配置文件
+#spring:
+#  profiles:
+#    active: prod
+
+######### 开发环境配置信息 ##########
+#服务器端口号
+server:
+  port: 8080
+
+# 激活指定文档节点配置信息
+spring:
+  profiles:
+    active: prod
+---
+########## 测试环境配置信息 ##########
+# spring.profiles 用于指定用于那个环境
+spring:
+  profiles: test
+server:
+  port: 9000
+---
+########## 生产环境配置信息 ##########
+spring:
+  profiles: produce
+server:
+  port: 80

@@ -1,0 +1,45 @@
+# 将数据注入到实体类
+person:
+  name: 张三
+  # 使用随机的UUID
+  userId: ${random.uuid}
+  # 使用随机数 范围1-100
+  age: ${random.int[1,100]}
+  sex: true
+  birthday: 2019/10/17
+
+  maps: {
+    "address": "中国上海",
+    "mobile": 17687697896
+  }
+  lists:
+  - 湖北十堰
+  - 湖北襄阳
+  - 湖北孝感
+  - 湖北宜昌
+  - 湖北仙桃
+  - 湖北武汉
+  - 湖北恩施
+  - 湖北荆州
+  - 湖北天门
+  - 湖北潜江
+  dog:
+    dogName: 哈士奇
+    dogId: ${random.uuid}
+    dogAge: ${random.int[0,15]}
+    dogSex: false
+  info: 信息(姓名=${person.name}, 用户ID=${person.userId:null}，年龄=${person.age}, 宠物名称=${person.dog.dogName}，宠物ID=${person.dog.dogId:null}，宠物年龄=${person.dog.dogAge})
+
+# 常用随机数
+  # 随机32位MD5字符串
+  randomValue: ${random.value}
+  # 随机整形
+  randomInt: ${random.int}
+  # 随机长整形
+  randomLong: ${random.long}
+  # 随机10以内的整数
+  randomIntRange: ${random.int(10)}
+  # 随机UUID
+  randomUUID: ${random.uuid}
+  # 随机1024-65536之内的数字
+  randomIntArrayRange: ${random.int[1024,65536]}
