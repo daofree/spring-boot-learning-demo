@@ -1,0 +1,54 @@
+2019-10-27 03:35:40.422  INFO 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Starting SpringBootLoggingApplication on DESKTOP-25MLF2S with PID 16512 (C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging\target\classes started by Landa in C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging)
+2019-10-27 03:35:40.432 DEBUG 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-27 03:35:40.432  INFO 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : No active profile set, falling back to default profiles: default
+2019-10-27 03:35:41.852  INFO 16512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-27 03:35:41.894  INFO 16512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-27 03:35:41.894  INFO 16512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-27 03:35:42.005  INFO 16512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-27 03:35:42.005  INFO 16512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1434 ms
+2019-10-27 03:35:42.205  INFO 16512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 03:35:42.380  INFO 16512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-27 03:35:42.395  INFO 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Started SpringBootLoggingApplication in 2.801 seconds (JVM running for 3.981)
+2019-10-27 03:35:42.395 TRACE 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,张三!
+2019-10-27 03:35:42.395 TRACE 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,李四!
+2019-10-27 03:35:42.395 TRACE 16512 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,王五!
+2019-10-27 04:26:40.203  INFO 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Starting SpringBootLoggingApplication on DESKTOP-25MLF2S with PID 11864 (C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging\target\classes started by Landa in C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging)
+2019-10-27 04:26:40.207 DEBUG 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-10-27 04:26:40.208  INFO 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : No active profile set, falling back to default profiles: default
+2019-10-27 04:26:41.647  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-27 04:26:41.647  INFO 11864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-27 04:26:41.647  INFO 11864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-27 04:26:41.748  INFO 11864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-27 04:26:41.749  INFO 11864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1425 ms
+2019-10-27 04:26:41.935  INFO 11864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:26:42.099  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-27 04:26:42.103  INFO 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Started SpringBootLoggingApplication in 2.716 seconds (JVM running for 4.0)
+2019-10-27 04:26:42.105 TRACE 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,张三!
+2019-10-27 04:26:42.106 TRACE 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,李四!
+2019-10-27 04:26:42.106 TRACE 11864 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,王五!
+2019-10-27 04:27:26.818  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : Starting SpringBootLoggingApplication on DESKTOP-25MLF2S with PID 10404 (C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging\target\classes started by Landa in C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-log\spring-boot-logging)
+2019-10-27 04:27:26.823  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : No active profile set, falling back to default profiles: default
+2019-10-27 04:27:28.114  INFO 10404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-27 04:27:28.138  INFO 10404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-27 04:27:28.138  INFO 10404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-27 04:27:28.242  INFO 10404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-27 04:27:28.243  INFO 10404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1344 ms
+2019-10-27 04:27:28.447  INFO 10404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:27:28.625  INFO 10404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-27 04:27:28.629  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : Started SpringBootLoggingApplication in 2.652 seconds (JVM running for 3.937)
+2019-10-27 04:27:28.630  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,张三!
+2019-10-27 04:27:28.630  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,李四!
+2019-10-27 04:27:28.630  INFO 10404 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,王五!
+2019-10-27 04:56:18.740  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : Starting SpringBootLoggingApplication on DESKTOP-25MLF2S with PID 4800 (C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-logging\target\classes started by Landa in C:\Users\Landa\ideaProject\spring-boot-learning-demo\spring-boot-logging)
+2019-10-27 04:56:18.744  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : No active profile set, falling back to default profiles: default
+2019-10-27 04:56:20.121  INFO 4800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-27 04:56:20.136  INFO 4800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-27 04:56:20.136  INFO 4800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-27 04:56:20.237  INFO 4800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-27 04:56:20.237  INFO 4800 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2019-10-27 04:56:20.438  INFO 4800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-27 04:56:20.606  INFO 4800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-27 04:56:20.610  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : Started SpringBootLoggingApplication in 3.09 seconds (JVM running for 5.385)
+2019-10-27 04:56:20.613  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,张三!
+2019-10-27 04:56:20.613  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,李四!
+2019-10-27 04:56:20.613  INFO 4800 --- [main] c.gotojava.SpringBootLoggingApplication  : Hello,王五!
