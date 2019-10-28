@@ -185,7 +185,7 @@ Spring Boot也可从以下位置加载配置文件(***按照优先级从高到�
 > 常见配置文件属性参考文档：[常见的应用程序属性](https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/reference/html/common-application-properties.html "https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/reference/html/common-application-properties.html")
 
 ## 自动配置原理 ##
-- SpringBoot实战之SpringBoot自动配置原理：[SpringBoot实战之SpringBoot自动配置原理](SpringBoot实战之SpringBoot自动配置原理 "SpringBoot实战之SpringBoot自动配置原理")
+- SpringBoot实战之SpringBoot自动配置原理：[SpringBoot实战之SpringBoot自动配置原理](https://www.cnblogs.com/hhcode520/p/9450933.html "SpringBoot实战之SpringBoot自动配置原理")
 
 - ### @Conditional注解 ###
 > 作用：必须是@Conditional指定的条件成立，才给容器中添加组件，配置中的所有内容才生效
