@@ -32,6 +32,7 @@
 - [2.spring-boot-helloworld-quick：Spring boot入门-快速启动](spring-boot-helloworld-quick "2.Spring boot快速启动demo")
 - [3.spring-boot-configuration-demo：Spring Boot配置文件的使用](spring-boot-configuration-demo)
 - [4.spring-boot-logging：Spring Boot Logback日志框架的使用](spring-boot-logging)
+- [5.spring-boot-webdev：Spring Boot Web综合开发](spring-boot-webdev)
 
 ## :notebook:相关文档 ##
 - Spring Boot官方API(1.5.22)：[https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/api/Spring](https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/api/ "Boot Docs 1.5.22.RELEASE API")
