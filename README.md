@@ -3,6 +3,13 @@
 ## :page_with_curl:项目说明： ##
 该项目是个人学习Spring Boot时所编写的相关代码和学习笔记，项目包含相关知识点的记录和实践，仅供学习和参考使用！详细内容请参考Spring Boot官方文档。
 
+本项目参考以下内容：
+
+- Spring Boot官方文档
+- 尚硅谷Spring Boot核心技术篇视频教程
+- 尚硅谷Spring Boot整合篇视频教程
+- 纯洁的微笑Spring Boot技术教程
+
 ## :scroll:版本说明： ##
 - Spring Boot使用版本：1.5.22.RELEASE
 - Java JDK版本：1.8.0_31
@@ -32,6 +39,13 @@
 - JDK官方文档(1.8)：[https://docs.oracle.com/javase/specs/jls/se8/html/index.html](https://docs.oracle.com/javase/specs/jls/se8/html/index.html "JDK1.8语言规范")
 - IDEA中文文档(W3Cschool)：[https://www.w3cschool.cn/intellij_idea_doc/](https://www.w3cschool.cn/intellij_idea_doc/ "https://www.w3cschool.cn/intellij_idea_doc/")
 - IDEA官方文档：[https://www.jetbrains.com/help/idea/installation-guide.html](https://www.jetbrains.com/help/idea/installation-guide.html "https://www.jetbrains.com/help/idea/installation-guide.html")
+- 纯洁的微笑Spring Boot技术博客： http://www.ityouknow.com/spring-boot
+- 尚硅谷Spring Boot核心技术篇视频教程
+  - 视频地址：https://pan.baidu.com/s/1zVGpFTOKN5TPjoEDkclVfA
+  - 提取码：lach
+- 尚硅谷Spring Boot整合篇视频教程
+  - 视频地址：https://pan.baidu.com/s/17fLnDs9sB-1xYzpc24kyaA
+  - 提取码：x5nr
 
 ## :pencil:问题解决方案 ##
 - IntelliJ IDEA引入项目之后不显示 解决办法：[https://blog.csdn.net/cuicanxingchen123456/article/details/82834680](https://blog.csdn.net/cuicanxingchen123456/article/details/82834680 "https://blog.csdn.net/cuicanxingchen123456/article/details/82834680")
