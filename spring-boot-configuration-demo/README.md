@@ -6,7 +6,7 @@
 
 ## 什么是YAML ##
     **YAML**（“YAML不是标记语言”的递归缩写）是一种人类可读的**数据序列化语言**。它通常用于配置文件和用于存储或传输数据的应用程序。
-	--引用自《维基百科》
+    --引用自《维基百科》
 > yaml示例:
 
 ```yaml
@@ -271,23 +271,23 @@ Negative matches:	# 没有匹配上的自动配置类，不会启动
 
 ## 效果展示 ##
 - ### 项目截图 ###
-![Spring Boot配置文件项目截图](../images/spring-boot-configuration-demo-project.png)
+![Spring Boot配置文件项目截图](http://cloudstorage.gotojava.cn/spring-boot-configuration-demo-project.png)
 
 + ### 运行截图 ###
 	- #### Properties文件注解绑定参数获取 ####
-	![properties-file](../images/spring-boot-configuration-propertiesFile.png)
+	![properties-file](http://cloudstorage.gotojava.cn/spring-boot-configuration-propertiesFile.png)
 
 	- #### YAML文件注解自动封装获取 ####
-	![spring-boot-configuration-yaml-file](../images/spring-boot-configuration-yamlFile.png)
+	![spring-boot-configuration-yaml-file](http://cloudstorage.gotojava.cn/spring-boot-configuration-yamlFile.png)
 
 	- #### YAML文件获取随机数 ####
-	![spring-boot-configuration-random](../images/spring-boot-configuration-random.png)
+	![spring-boot-configuration-random](http://cloudstorage.gotojava.cn/spring-boot-configuration-random.png)
 
 	- #### YAML文件多profile文件环境配置 ####
-	![spring-boot-configuration-profile](../images/spring-boot-configuration-profile.png)
+	![spring-boot-configuration-profile](http://cloudstorage.gotojava.cn/spring-boot-configuration-profile.png)
 
 	- #### YAML文件多文档块环境配置 ####
-	![spring-boot-configuration-document](../images/spring-boot-configuration-document.png)
+	![spring-boot-configuration-document](http://cloudstorage.gotojava.cn/spring-boot-configuration-document.png)
 
 ## 参考文档 ##
 - Spring Boot读取自定义配置文件：[https://cloud.tencent.com/developer/article/1481440](https://cloud.tencent.com/developer/article/1481440 "Spring Boot实战之读取自定义配置文件")

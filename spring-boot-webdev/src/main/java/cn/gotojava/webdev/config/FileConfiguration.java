@@ -1,4 +1,4 @@
-package cn.gotojava.webdev.configuration;
+package cn.gotojava.webdev.config;
 
 import lombok.Getter;
 import lombok.Setter;

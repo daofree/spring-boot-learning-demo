@@ -20,7 +20,7 @@
 目前就职于一线某互联网公司，开发方向，业余爱好信息安全，曾在知名SRC(Security Response Center)提交过相关厂商漏洞。
 
 ## :mailbox:联系我 ###
-![WeChat](images/WeChat.jpg)
+![WeChat](http://cloudstorage.gotojava.cn/WeChat.jpg)
 
 微信请备注：Github-姓名
 

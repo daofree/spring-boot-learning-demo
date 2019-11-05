@@ -1,4 +1,4 @@
-package cn.gotojava.webdev.configuration;
+package cn.gotojava.webdev.config;
 
 import cn.gotojava.webdev.filter.IpFilter;
 import org.apache.catalina.filters.RemoteIpFilter;

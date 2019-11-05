@@ -85,4 +85,4 @@ public class SpringBootLoggingApplication {
 
 - 效果
 
-![logbakUse](../images/logbackUse.png)
+![logbakUse](http://cloudstorage.gotojava.cn/logbackUse.png)

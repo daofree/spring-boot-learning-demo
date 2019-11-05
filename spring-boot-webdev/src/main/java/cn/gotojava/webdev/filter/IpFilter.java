@@ -1,6 +1,6 @@
 package cn.gotojava.webdev.filter;
 
-import cn.gotojava.webdev.configuration.WebConfiguration;
+import cn.gotojava.webdev.config.WebConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

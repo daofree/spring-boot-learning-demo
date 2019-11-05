@@ -15,7 +15,7 @@ Spring Boot框架是基于Spring4.0的一个服务框架，Spring Boot用来**�
 - 准生成环境运行时应用监控
 
 ## 什么是微服务 ##
-![微服务架构](../images/MicroService.png)
+![微服务架构](http://cloudstorage.gotojava.cn/MicroService.png)
 
 - 微服务：[https://github.com/YangZhao5Java/note-navigation/blob/master/src/MicroService.md](https://github.com/YangZhao5Java/note-navigation/blob/master/src/MicroService.md "https://github.com/YangZhao5Java/note-navigation/blob/master/src/MicroService.md")
 
