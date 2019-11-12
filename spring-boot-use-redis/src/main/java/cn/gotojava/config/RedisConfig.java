@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 @EnableCaching  // 开启缓存
 public class RedisConfig extends CachingConfigurerSupport {
 
-    // 注册bean
+    // 自定义Key生成器
     @Bean
     public KeyGenerator keyGenerator() {
         return new KeyGenerator() {
@@ -28,4 +28,5 @@ public class RedisConfig extends CachingConfigurerSupport {
             }
         };
     }
+
 }
