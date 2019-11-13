@@ -29,6 +29,7 @@ public class HelloController {
         user.setUserSex("男");
         user.setUserAge(20);
         user.setUserAddress("中国上海");
+
         log.info(user.toString());
         return user;
     }
