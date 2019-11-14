@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBoot模版渲染</title>
+    <style type="text/css">
+        #list-text td{text-align: center;}
+    </style>
+</head>
+<body>
+<p th:unless="${uid} == null" th:text="'用户ID：'+${uid}"></p>
+<p th:if="${name} != null" th:text="'用户姓名：'+${name}"></p>
+
+<table th:if="${userlist} != null">
+    <tr><th th:colspan="4">Thymeleaf处理List集合</th></tr>
+    <tr id="list-text"><td clas>用户名</td><td>地址</td><td>年龄</td><td>EMAIL</td></tr>
+    <tr th:each="list:${userlist}">
+        <td th:text="*{list.username}"></td>
+        <td th:text="*{list.address}"></td>
+        <td th:text="*{list.age}"></td>
+        <td th:text="*{list.email}"></td>
+    </tr>
+</table>
+
+<a th:href="@{https://www.google.com.hk}">Click Google</a>
+</body>
+<script th:inline="javascript" type="text/javascript">
+    alert("Thymeleaf模版渲染");
+</script>
+</html>
