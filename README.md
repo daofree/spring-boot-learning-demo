@@ -35,6 +35,7 @@
 - [5.spring-boot-webdev：Spring Boot Web综合开发](spring-boot-webdev)
 - [6.spring-boot-use-redis：Spring Boot 中 Redis 的使用](spring-boot-use-redis)
 - [7.spring-boot-use-thymeleaf：Spring Boot 中使用Thymeleaf模板引擎](spring-boot-use-thymeleaf)
+- [8.spring-boot-use-jpa：Spring Boot中使用Spring Data Jpa实现增、删、改、查](spring-boot-use-jpa)
 
 ## :notebook:相关文档 ##
 - Spring Boot官方API(1.5.22)：[https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/api/Spring](https://docs.spring.io/spring-boot/docs/1.5.22.RELEASE/api/ "Boot Docs 1.5.22.RELEASE API")
