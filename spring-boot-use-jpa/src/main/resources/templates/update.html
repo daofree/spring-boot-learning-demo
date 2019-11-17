@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User UPDATE</title>
+    <style type="text/css">
+        table{margin: auto}
+    </style>
+</head>
+<body>
+<form th:action="@{/api/update}" method="post">
+<table>
+    <input type="hidden" name="id" th:value="${userInfo.getId()}">
+    <tr><th>修改</th></tr>
+    <tr>
+        <td>姓名：</td>
+        <td><input type="text" name="userName" th:value="${userInfo.getUserName()}"></td>
+    </tr>
+    <tr>
+        <td>年龄：</td>
+        <td><input type="text" name="userAge" th:value="${userInfo.getUserAge()}"></td>
+    </tr>
+    <tr>
+        <td>地址：</td>
+        <td><input type="text" name="userAddress" th:value="${userInfo.getUserAddress()}"></td>
+    </tr>
+    <tr>
+        <td>邮箱：</td>
+        <td><input type="text" name="userEmail" th:value="${userInfo.getUserEmail()}"></td>
+    </tr>
+    <tr>
+        <td>性别：</td>
+        <td>
+            <select name="userSex" th:if="${userInfo.getUserSex()} == 0">
+                <option th:value="0" selected>男</option>
+                <option th:value="1">女</option>
+            </select>
+            <select name="userSex" th:if="${userInfo.getUserSex()} == 1">
+                <option th:value="0">男</option>
+                <option th:value="1" selected>女</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>手机：</td>
+        <td><input type="text" name="userPhone" th:value="${userInfo.getUserPhone()}"></td>
+    </tr>
+    <tr>
+        <td th:colspan="2" style="text-align: center"><input type="submit" th:value="修改"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

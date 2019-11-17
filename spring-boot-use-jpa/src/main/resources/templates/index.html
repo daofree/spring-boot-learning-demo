@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>Spring Data JPA的使用</title>
+    <style type="text/css">
+        table{margin: auto}
+        #user-list{text-align: center}
+        #save-user{text-align: right}
+    </style>
+</head>
+<body>
+<table>
+    <tr id="user-list"><td>编号</td><Td>用户名</Td><td>年龄</td><td>EMail</td><td>地址</td><td>手机号</td><td>性别</td><td>操作</td></tr>
+    <tr th:each="userlist:${userlist}">
+        <td th:text="${userlist.getId()}">编号</td>
+        <td th:text="${userlist.getUserName()}">用户名</td>
+        <td th:text="${userlist.getUserAge()}">年龄</td>
+        <td th:text="${userlist.getUserEmail()}">EMail</td>
+        <td th:text="${userlist.getUserAddress()}">地址</td>
+        <td th:text="${userlist.getUserPhone()}">手机号</td>
+        <td th:text="${userlist.getUserSex() == 0}?'男':'女'">性别</td>
+        <td>
+            <a th:href="@{/api/findUserById/{userId}(userId=${userlist.id})}">修改</a>&nbsp;&nbsp;
+            <a th:href="@{/api/delete/{userId}(userId=${userlist.id})}">删除</a>
+        </td>
+    </tr>
+    <tr>
+        <td th:colspan="8" id="save-user"><a th:href="@{/static/save.html}">新增用户</a></td>
+    </tr>
+</table>
+<input type="hidden" id="msg" th:value="${msg}">
+<input type="hidden" id="code" th:value="${code}">
+</body>
+<script th:src="@{https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js}"></script>
+<script th:inline="javascript">
+    debugger;
+    var msg = $("#msg").val();
+    var code = $("#code").val();
+    if (code == 2000) {
+        alert(msg)
+    }
+</script>
+</html>
