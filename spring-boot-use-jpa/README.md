@@ -1,6 +1,6 @@
 # spring-boot-use-jpa
 
-> Spring Boot 使用JPA
+> Spring Boot 使用JPA配合Thymeleaf实现`增`、`删`、`改`、`查`。
 
 文档参考： http://www.ityouknow.com/springboot/2016/08/20/spring-boot-jpa.html
 
