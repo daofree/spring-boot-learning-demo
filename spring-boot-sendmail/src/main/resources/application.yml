@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: yz0917@foxmail.com
+    password: ravisflbohmiecib
+    port: 25
+    default-encoding: utf-8
+    from: yz0917@foxmail.com
+    properties:
+      smtp.auth: true
+      smtp.starttls.enable: true
+      ssl.enable: true
