@@ -14,9 +14,11 @@ import org.springframework.stereotype.Service;
 public class SendMailServiceImpl implements SendMailService {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    //注入邮件发送对象
     @Autowired
     private JavaMailSender mailSender;
 
+    //发件人
     @Value("${spring.mail.from}")
     private String from;
 
@@ -38,7 +40,7 @@ public class SendMailServiceImpl implements SendMailService {
             mailSender.send(message);
             logger.info("简单邮件已经发送。");
         } catch (Exception e) {
-            logger.error("发送简单邮件时发生异常！", e);
+            logger.error("发送简单邮件时发生异常！{}", e);
         }
 
     }
@@ -52,7 +54,7 @@ public class SendMailServiceImpl implements SendMailService {
     @Override
     public void sendHtmlMail(String to, String subject) {
         // 定义html内容
-        final String content = "";
+        String content = "";
         this.sendSimpleMail(to,subject,content);
     }
 
